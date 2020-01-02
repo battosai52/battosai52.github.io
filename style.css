@@ -2,7 +2,7 @@ body {
 
     width: 1000px;
     height: 1350px;
-    
+    margin: 0 auto;
 }
 
 header {
@@ -16,18 +16,22 @@ img{
 }
 .entete{
     
-      background-image: url(../cv/may.png);
-      text-align: center;
+      background-image: url(may.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center; 
+      height: 400px;
       
       
     
       
          
 }
-.container{
+container{
     width: 60%;
     float: right;
-   vertical-align: middle;
+    vertical-align: middle;
+    margin-top: 0px;
     
 }
 
@@ -36,6 +40,7 @@ img{
     font-size: 80px;
     color: orangered;
     font-family: 'Kaushan Script', cursive;
+    margin-bottom: -0.5em;
      
 }
 
@@ -44,8 +49,7 @@ img{
     font-size: 40px;
     color:aqua;
     font-family: 'Kaushan Script', cursive;
-
-}
+   }
 
 .titre1{
 
@@ -74,14 +78,14 @@ p{
     
 }
 
-.marge{
+marge{
 
     width: 30%;
     float: left;
     vertical-align: middle;
     background-color:aqua;
     margin-top: 6px;
-
+    
 }
 .titre2 {
 
@@ -89,6 +93,7 @@ p{
     font-size: 25px;
     color: orangered;
     font-family: 'Kaushan Script', cursive;
+    
 }
 
 p .mot{
@@ -107,6 +112,9 @@ footer{
     float: left;
     vertical-align: bottom;
     background-color: aqua;
+   
+    
+   
 }
 .LIENS{
     
