@@ -9,7 +9,7 @@ header {
      
     
     
-    } 
+} 
 
 img{
     max-width: 100%;
@@ -24,7 +24,7 @@ img{
       
          
 }
-container{
+.container{
     width: 60%;
     float: right;
    vertical-align: middle;
@@ -74,7 +74,7 @@ p{
     
 }
 
-marge{
+.marge{
 
     width: 30%;
     float: left;
